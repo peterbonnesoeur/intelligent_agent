@@ -1,0 +1,190 @@
+!SESSION 2018-11-20 13:44:37.119 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CH
+Framework arguments:  -product org.eclipse.platform.ide ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/peterbonnesoeur/Documents/epfl cours/Intelligent agent/5th project/bejjani-bonnesoeur-ex5 -dev file:/Users/peterbonnesoeur/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/New_configuration (1)/dev.properties ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+
+!ENTRY org.eclipse.osgi 4 0 2018-11-20 13:44:38.845
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1091)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:843)
+	at org.eclipse.swt.widgets.Display.create(Display.java:826)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:716)
+	at org.eclipse.ui.internal.Workbench.createDisplay(Workbench.java:749)
+	at org.eclipse.ui.PlatformUI.createDisplay(PlatformUI.java:163)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.createDisplay(IDEApplication.java:185)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:128)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2018-11-20 15:01:38.443 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CH
+Framework arguments:  -product org.eclipse.platform.ide ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/peterbonnesoeur/Documents/epfl cours/Intelligent agent/5th project/bejjani-bonnesoeur-ex5 -dev file:/Users/peterbonnesoeur/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/New_configuration (1)/dev.properties ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+
+!ENTRY org.eclipse.osgi 4 0 2018-11-20 15:01:40.312
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1091)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:843)
+	at org.eclipse.swt.widgets.Display.create(Display.java:826)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:716)
+	at org.eclipse.ui.internal.Workbench.createDisplay(Workbench.java:749)
+	at org.eclipse.ui.PlatformUI.createDisplay(PlatformUI.java:163)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.createDisplay(IDEApplication.java:185)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:128)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2018-11-20 15:02:16.963 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CH
+Framework arguments:  -product org.eclipse.platform.ide java -jar ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/peterbonnesoeur/Documents/epfl cours/Intelligent agent/5th project/bejjani-bonnesoeur-ex5 -dev file:/Users/peterbonnesoeur/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/New_configuration (1)/dev.properties java -jar ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+
+!ENTRY org.eclipse.osgi 4 0 2018-11-20 15:02:18.702
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1091)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:843)
+	at org.eclipse.swt.widgets.Display.create(Display.java:826)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:716)
+	at org.eclipse.ui.internal.Workbench.createDisplay(Workbench.java:749)
+	at org.eclipse.ui.PlatformUI.createDisplay(PlatformUI.java:163)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.createDisplay(IDEApplication.java:185)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:128)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2018-11-20 15:04:59.330 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CH
+Framework arguments:  -product org.eclipse.platform.ide java -jar ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/peterbonnesoeur/Documents/epfl cours/Intelligent agent/5th project/bejjani-bonnesoeur-ex5 -dev file:/Users/peterbonnesoeur/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/New_configuration (1)/dev.properties java -jar ../logist/logist.jar config/auction.xml auction-joseph auction-manuel
+
+!ENTRY org.eclipse.osgi 4 0 2018-11-20 15:05:01.051
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1091)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:843)
+	at org.eclipse.swt.widgets.Display.create(Display.java:826)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:716)
+	at org.eclipse.ui.internal.Workbench.createDisplay(Workbench.java:749)
+	at org.eclipse.ui.PlatformUI.createDisplay(PlatformUI.java:163)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.createDisplay(IDEApplication.java:185)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:128)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2018-11-20 15:05:29.976 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CH
+Framework arguments:  -product org.eclipse.platform.ide java -jar ../logist/logist.jar config/auction.xml auction-naive auction-naive
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/peterbonnesoeur/Documents/epfl cours/Intelligent agent/5th project/bejjani-bonnesoeur-ex5 -dev file:/Users/peterbonnesoeur/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/New_configuration (1)/dev.properties java -jar ../logist/logist.jar config/auction.xml auction-naive auction-naive
+
+!ENTRY org.eclipse.osgi 4 0 2018-11-20 15:05:31.665
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1091)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:843)
+	at org.eclipse.swt.widgets.Display.create(Display.java:826)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:716)
+	at org.eclipse.ui.internal.Workbench.createDisplay(Workbench.java:749)
+	at org.eclipse.ui.PlatformUI.createDisplay(PlatformUI.java:163)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.createDisplay(IDEApplication.java:185)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:128)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)

@@ -1,0 +1,20 @@
+05:18:15.399 FINE | Run command: java -Xmx1024m -classpath ../logist/logist.jar logist.LogistPlatform -o tournament/MyEvent/agents-action-joseph-action-random.xml -a tournament/MyEvent/agents.xml tournament/MyEvent/agents.xml action-joseph action-random
+05:18:15.588 CONFIG | Reading tournament/MyEvent/agents.xml
+05:18:15.648 WARNING | logist.config.ParserException: Tag <root> has no 'settings' element
+05:18:15.652 WARNING | 	at logist.config.ParserException.missingTag(ParserException.java:13)
+05:18:15.653 SEVERE | LogistPlatform returned error code 254
+05:18:15.653 WARNING | 	at logist.config.XMLTag.getUniqueChild(XMLTag.java:94)
+05:18:15.654 FINE | Run command: java -Xmx1024m -classpath ../logist/logist.jar logist.LogistPlatform -o tournament/MyEvent/agents-action-random-action-joseph.xml -a tournament/MyEvent/agents.xml tournament/MyEvent/agents.xml action-random action-joseph
+05:18:15.654 WARNING | 	at logist.config.ConfigParser.parse(ConfigParser.java:42)
+05:18:15.655 WARNING | 	at logist.config.Parsers.parseConfiguration(Parsers.java:30)
+05:18:15.655 WARNING | 	at logist.config.Parsers.parseConfiguration(Parsers.java:25)
+05:18:15.656 WARNING | 	at logist.LogistPlatform.main(LogistPlatform.java:116)
+05:18:15.789 CONFIG | Reading tournament/MyEvent/agents.xml
+05:18:15.849 WARNING | logist.config.ParserException: Tag <root> has no 'settings' element
+05:18:15.850 WARNING | 	at logist.config.ParserException.missingTag(ParserException.java:13)
+05:18:15.850 WARNING | 	at logist.config.XMLTag.getUniqueChild(XMLTag.java:94)
+05:18:15.851 WARNING | 	at logist.config.ConfigParser.parse(ConfigParser.java:42)
+05:18:15.851 WARNING | 	at logist.config.Parsers.parseConfiguration(Parsers.java:30)
+05:18:15.852 WARNING | 	at logist.config.Parsers.parseConfiguration(Parsers.java:25)
+05:18:15.852 WARNING | 	at logist.LogistPlatform.main(LogistPlatform.java:116)
+05:18:15.853 SEVERE | LogistPlatform returned error code 254

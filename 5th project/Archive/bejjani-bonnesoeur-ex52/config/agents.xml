@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<agents>
+	<!-- A list of agents and their behavior classes -->
+	
+	<!-- #### AUCTION AGENTS ### -->
+
+	
+
+	<agent name="auction-astolpho">
+		<set class-path="bin/"/>
+		<set class-name="template.Astolpho"/>
+	</agent>
+
+		<agent name="auction-naive">
+		<set class-path="bin/"/>
+		<set class-name="template.NaiveTemplate"/>
+	</agent>
+
+	<agent name="auction-s">
+        <set class-path="bin/"/>
+        <set class-name="template.AuctionTemplateS"/>
+    </agent>
+    
+
+	<agent name="auction-random">
+        <set class-path="bin/"/>
+        <set class-name="template.AuctionTemplate"/>
+    </agent>
+
+	<agent name="auction-didier">
+        <set class-path="bin/"/>
+        <set class-name="template.Didier"/>
+    </agent>
+
+	<agent name="auction-manuel">
+        <set class-path="bin/"/>
+        <set class-name="template.Manuel"/>
+    </agent>
+
+<agent name="auction-astolpho2">
+        <set class-path="bin/"/>
+        <set class-name="template.Astolpho2"/>
+    </agent>
+
+	<agent name="auction-gaus">
+        <set class-path="bin/"/>
+        <set class-name="template.Gaus"/>
+    </agent>
+
+	<agent name="auction-joseph">
+        <set class-path="bin/"/>
+        <set class-name="template.Joseph"/>
+    </agent>
+
+
+	
+</agents>

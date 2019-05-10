@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<agents>
+	<!-- A list of agents and their behavior classes -->
+	
+	<!-- #### AUCTION AGENTS ### -->
+	<agent name="auction-naive">
+		<set class-path="bin/"/>
+		<set class-name="template.NaiveTemplate"/>
+	</agent>
+
+	<agent name="auction-didier">
+		<set class-path="bin/"/>
+		<set class-name="template.Didier"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+
+	<agent name="auction-sayd">
+		<set class-path="bin/"/>
+		<set class-name="template.Didier"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+
+	<agent name="auction-didier2">
+		<set class-path="bin/"/>
+		<set class-name="template.Didier2"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+
+	<agent name="auction-random">
+		<set class-path="bin/"/>
+		<set class-name="template.AuctionTemplate"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+
+	<agent name="auction-manuel">
+		<set class-path="bin/"/>
+		<set class-name="template.Manuel"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+
+	<agent name="auction-joseph">
+		<set class-path="bin/"/>
+		<set class-name="template.Joseph"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+
+	<agent name="auction-agathe">
+		<set class-path="bin/"/>
+		<set class-name="template.Agathe"/>
+		<set nbGen = "100"/>
+		<set populationSize = "20"/>
+	</agent>
+	
+</agents>
